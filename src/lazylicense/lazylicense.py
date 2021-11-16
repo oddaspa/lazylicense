@@ -18,9 +18,7 @@ import argparse
 from utils.file_scanner import get_files
 from utils.read_write import read_file, get_comments, file_contains_license, write_license_to_file
 
-
-
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('-e', '--extension')
     parser.add_argument('-f', '--folder')
@@ -41,3 +39,6 @@ if __name__ == '__main__':
             print(f"Added license to {current_file}.")
         else:
             print(f"Possible license already exist in {current_file}.")
+
+if __name__ == '__main__':
+    main()
