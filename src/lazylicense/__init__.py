@@ -1,3 +1,4 @@
+from . import lazylicense
 """
 Copyright 2020 Odd Gunnar Aspaas
 
