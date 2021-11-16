@@ -3,6 +3,7 @@
 [![PyPI package](https://img.shields.io/badge/pip%20install-lazylicense-brightgreen)](https://pypi.org/project/lazylicense/)
 [![version number](https://img.shields.io/pypi/v/lazylicense?color=green&label=version)](https://pypi.org/project/lazylicense/)
 [![Actions Status](https://github.com/oddaspa/lazylicense/workflows/Build%20status/badge.svg)](https://github.com/oddaspa/lazylicense/actions)
+[![PyPI downloads](https://img.shields.io/pypi/dm/lazylicense.svg)](https://pypistats.org/packages/lazylicense)
 [![License](https://img.shields.io/github/license/oddaspa/lazylicense)](https://github.com/oddaspa/lazylicense/blob/main/LICENSE.txt)
 
 Python package for adding license for source files.
