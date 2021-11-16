@@ -1,4 +1,3 @@
-from . import lazylicense
 """
 Copyright 2020 Odd Gunnar Aspaas
 
@@ -15,4 +14,5 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
-
+from . import lazylicense
+import utils
