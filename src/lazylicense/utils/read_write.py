@@ -48,7 +48,11 @@ def file_contains_license(comments):
 
 
 
-def write_license_to_file(file, author="Author", year=2021):
+def write_license_to_file(file, author, year):
+    if author == None:
+        author = "Author"
+    if year == None:
+        year = 2021
     LICENSE = f'''"""
 Copyright {year} {author}
 

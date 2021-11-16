@@ -15,4 +15,4 @@ limitations under the License.
 """
 
 from . import lazylicense
-import utils
+from lazylicense.utils import file_scanner, read_write

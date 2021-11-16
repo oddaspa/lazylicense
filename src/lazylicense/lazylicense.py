@@ -15,8 +15,12 @@ limitations under the License.
 """
 
 import argparse
-from utils.file_scanner import get_files
-from utils.read_write import read_file, get_comments, file_contains_license, write_license_to_file
+from lazylicense.utils.file_scanner import get_files
+from lazylicense.utils.read_write import (
+    read_file, get_comments, 
+    file_contains_license, 
+    write_license_to_file
+)
 
 def main():
     parser = argparse.ArgumentParser()
